@@ -6,7 +6,7 @@ const DESCRIPTIONS = [
   'Свадебная прогулка. #свадьба #destinationwedding #weddingphotography',
   'Спорт наше все! #отрываемся #летовстиле_адидас',
   'Funny Animal Memes. #Animals #Cute ',
-  'Яркие вафли «Красный бархат».#оригинальныевафли #рецептвафлей #рецепт ',];
+  'Яркие вафли Красный бархат.#оригинальныевафли #рецептвафлей #рецепт ',];
 const LIKE_MIN_COUNT = 15;
 const LIKE_MAX_COUNT = 200;
 const COMMENT_MIN_COUNT = 0;
