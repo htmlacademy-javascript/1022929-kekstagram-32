@@ -1,6 +1,6 @@
 import {getPicture} from './data.js';
-import {generateThumbnails} from './thumbnail.js';
+import {generateGallery} from './photo-viewer.js';
 
-generateThumbnails(getPicture());
+generateGallery(getPicture());
 
 
