@@ -1,6 +1,7 @@
 import {getPicture} from './data.js';
-import {generateGallery} from './photo-viewer.js';
-
-generateGallery(getPicture());
+import { generateThumbnails } from './thumbnail.js';
+import {showBigPicture} from './photo-viewer.js';
+const pictureClick = (pictureDate) => showBigPicture(pictureDate);
+generateThumbnails(getPicture(), pictureClick);
 
 
